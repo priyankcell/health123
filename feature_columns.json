@@ -1,0 +1,37 @@
+{
+  "numeric_features": [
+    "glucose",
+    "glucose_30min_mean",
+    "glucose_30min_std",
+    "glucose_30min_min",
+    "glucose_30min_max",
+    "glucose_2h_mean",
+    "glucose_2h_std",
+    "glucose_slope_30min",
+    "carbs_60min_sum",
+    "insulin_bolus_60min_sum",
+    "insulin_basal",
+    "exercise_steps_60min_sum",
+    "minutes_since_meal",
+    "hour_sin",
+    "hour_cos",
+    "cgm_quality_flag",
+    "age",
+    "bmi",
+    "hba1c",
+    "diabetes_duration_years",
+    "previous_hyperglycemic_episodes",
+    "diabetes_status_int"
+  ],
+  "categorical_features": [
+    "sex",
+    "medication",
+    "smoking_status"
+  ],
+  "target": "glucose_future_60min",
+  "risk_threshold_mgdl": 140.0,
+  "forecast_horizon_minutes": 60,
+  "baseline_days": 3,
+  "selected_model": "ridge",
+  "residual_std_val": 16.832854824335918
+}
